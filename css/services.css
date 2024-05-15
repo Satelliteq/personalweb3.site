@@ -1,0 +1,141 @@
+   /*==================== SERVİCES ====================*/
+
+.services {
+    padding: 5rem;
+}
+
+.services-blog-hd {
+    text-align: center;
+}
+
+
+/* Sponsor */
+.sponsor-bar {
+    padding: 3rem;
+    padding-top: 0;
+    padding-bottom: 4rem;
+    overflow: hidden;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5rem;
+    overflow: hidden;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(1122.8px);
+    } 
+    
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.sponsor-flex img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;    
+    max-height: 45px;
+    min-width:120px ;
+    animation: scroll 15s linear infinite;
+
+}
+
+.sponsor-item {
+    font-size: 3rem;
+}
+
+
+.sponsonr-item svg {
+    max-width: 100px;
+    
+}
+
+/* Services Blog */
+
+.services-blog {
+    padding-top: 3rem;
+}
+
+.services-blog-list {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.services-blog-item {
+    border: 0.5px solid rgba(170, 170, 170, 0.3);
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 26%;
+    min-height: 200px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.services-blog-item:hover {
+    background-color: #191919;
+    transition: all 0.3s ;
+}
+
+.services-item-hd {
+    font-family: var(--second-font);
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(170, 170, 170, 0.7);
+}
+
+.services-item-hdm {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.services-item-p {
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    padding-top: 0.5rem;
+    opacity: 0.75;
+    color: rgba(170, 170, 170, 0.8);
+    font-weight: 400;
+}
+
+.about-btn {
+    padding-top: 2rem;
+}
+
+.about-btn .btn-icon-0 {
+    width: 30px;
+    height: 30px;
+}
+
+
+.about-btn .btn-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.about-btn .btn-icon-p {
+    color: #AAA;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+

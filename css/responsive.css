@@ -1,0 +1,1100 @@
+@media screen and (max-width: 600px) {
+    
+    /*STYLE CSS*/
+    .sect-hd {
+        font-size: 1rem;
+    }
+
+    /*HEADER CSS*/
+    .nav_item, 
+    .btn-1 {
+        display: none;
+    }
+
+    .header {
+        padding-top: 1rem;
+    }
+
+    .nav_responsive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+
+
+    /*HOME CSS*/
+    .home-flex {
+        height: 90vh;
+        padding: 3rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-hd-text {
+        width: 300px;
+        padding-top: 0;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .main-hd-text h1 {
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: -2px;
+        line-height: 55px;
+    }
+
+    .main-hd-text p {
+        text-align: center;
+    }
+
+    .main_bg {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        width: 80%;
+        height: 60vh;
+    }
+
+
+    /*BTN CSS*/
+    .btn-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 24rem;
+    }
+
+
+    /*SERVİCES CSS*/ 
+    .services {
+        padding: 2rem;
+        padding-top: 5rem;
+    }
+
+    .sponsor-bar {
+        padding: 1rem;
+    }
+
+    /*STEPS CSS*/ 
+    .steps {
+        padding: 2rem;
+    }
+
+    .steps-bg {
+        display: none;
+    }
+
+    .steps-flex {
+        width: 100%;
+    }
+
+    .steps-block {
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+
+    .steps-block-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 120px;
+    }
+
+    .arrow {
+        height: 220px;
+    }
+    
+    .first-arrow {
+        height: 160px;
+    }
+
+    .steps-block-item {
+        min-width: 280px;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .steps-block-items:nth-child(1) {
+        display: none;
+    }
+
+    .steps-block-item:nth-child(1) {
+        display: none;
+    }
+
+    .steps-block-item:nth-child(3) {
+        visibility: visible;
+    }
+
+    .visi-item {
+        visibility: visible;
+    }
+
+    /*COMMENTS CSS*/ 
+    .comments {
+        padding: 2rem;
+    }
+
+    .comments-grid {
+        padding-top: 1rem;
+    }
+
+    .comments-blocks {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-auto-columns: 1fr;
+        display: grid;
+    }
+
+    .cm-blck-flex {
+        gap: 1rem;
+    }
+
+    .cm-blck-flex img {
+        height: 35px;
+        opacity: 0.7;
+    }
+
+
+    /*ABOUT CSS*/  
+    .about {
+        height:70vh;
+    }
+
+    .about-flex {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .about_text {
+        width: 100%;
+    }
+
+    .about_text-hd {
+        font-size: 70px;
+        letter-spacing: -5px;
+        width: 100%;
+    }
+
+    .about_text-p {
+        max-width: 500px;
+    }
+
+
+    .about_links {
+        display: none;
+    }
+
+    .about_bg {
+        top: 40%;
+        left: -2%;
+        width: 100%;
+        height: 65vh;
+    }
+
+    .about_text-btn .btn-icon-p {
+        font-size: 0.8rem;
+    }
+
+
+
+    /*TALK CSS*/
+    .talk {
+        padding: 2rem;
+        padding-top: 7rem;
+        height: auto;
+    }
+
+    .talk_text_hd {
+        font-size: 15px;
+    }
+
+    .talk_text_head {
+        font-size: 100px;
+        line-height: 100px;
+        letter-spacing: -7px;
+    }
+
+
+
+    /*FOOTER CSS*/
+    .footer-flex {
+        padding: 2rem;
+        gap: 3rem;
+    }
+
+    .blog-flex {
+        gap: 4rem;
+    }
+
+    .foot-flex {
+        padding: 3rem;
+        padding-top: 0;
+    }
+
+    .foot_p {
+        max-width: 150px;
+    }
+
+    
+}
+
+@media (min-width:600px) and (max-width:768px) {
+
+     /*STYLE CSS*/
+     .sect-hd {
+        font-size: 1rem;
+    }
+
+    /*HEADER CSS*/
+    .nav_item, 
+    .btn-1 {
+        display: none;
+    }
+
+    .header {
+        padding-top: 1rem;
+    }
+
+    .nav_responsive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav {
+        padding: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+
+
+    /*HOME CSS*/
+    .home-flex {
+        height: 90vh;
+        padding: 3rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-hd-text {
+        width: 500px;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-hd-text h1 {
+        font-size: 4rem;
+        text-align: center;
+        letter-spacing: -2px;
+        line-height: 55px;
+    }
+
+    .main-hd-text p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .main_bg {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        width: 80%;
+        height: 60vh;
+    }
+
+
+    /*BTN CSS*/
+    .btn-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 24rem;
+    }
+
+
+     /*SERVİCES CSS*/ 
+     .services {
+        padding: 2rem;
+    }
+
+    .services-blog-item {
+        flex: 50%;
+    }
+
+    .sponsor-bar {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    /*STEPS CSS*/ 
+    .steps {
+        padding: 2rem;
+    }
+
+    .steps-bg {
+        display: none;
+    }
+
+    .steps-flex {
+        width: 100%;
+    }
+
+    .steps-block {
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+
+    .steps-block-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 120px;
+    }
+
+    .arrow {
+        height: 12.5em;
+    }
+    
+    .first-arrow {
+        height: 9rem;
+    }
+
+    .steps-block-item {
+        min-width: 280px;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .steps-block-items:nth-child(1) {
+        display: none;
+    }
+
+    .steps-block-item:nth-child(1) {
+        display: none;
+    }
+
+    .steps-block-item:nth-child(3) {
+        visibility: visible;
+    }
+
+    .visi-item {
+        visibility: visible;
+    }
+
+    /*COMMENTS CSS*/ 
+    .comments {
+        padding: 2rem;
+    }
+
+    .comments-grid {
+        padding-top: 1rem;
+    }
+
+    .comments-blocks {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-auto-columns: 1fr 1fr;
+        display: grid;
+    }
+
+    .cm-blck-flex {
+        gap: 1rem;
+    }
+
+    .cm-blck-flex:nth-child(3) {
+       padding-top: 2rem;
+    }
+
+    .cm-blck-flex:nth-child(2) {
+        /* Stil tanımları */
+        display: none;
+    }
+
+    .cm-blck-flex img {
+        height: 35px;
+        opacity: 0.7;
+    }
+
+
+    /*ABOUT CSS*/  
+    .about {
+        height: 100vh;
+    }
+
+    .about-flex {
+        padding: 2rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+
+    }
+
+    .about_text {
+        width: 100%;
+    }
+
+    .about_text-hd {
+        font-size: 120px;
+        letter-spacing: -8px;
+        width: 100%;
+    }
+
+    
+    .about_text-p {
+        max-width: 500px;
+    }
+
+
+    .about_links {
+        display: none;
+    }
+
+    .about_bg {
+        top: 35%;
+        left: 12%;
+        height: 80vh;
+        width: 60vh;
+    }
+
+    .about_text-btn .btn-icon-p {
+        font-size: 1rem;
+    }
+
+
+
+    /*TALK CSS*/
+    .talk {
+        padding: 3rem;
+        padding-top: 7rem;
+        height: auto;
+    }
+
+    .talk_text_hd {
+        font-size: 15px;
+    }
+
+    .talk_text_head {
+        font-size: 100px;
+        line-height: 100px;
+        letter-spacing: -7px;
+    }
+
+
+
+    /*FOOTER CSS*/
+    .footer-flex {
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .blog-flex {
+        gap: 5rem;
+    }
+
+    .foot-flex {
+        padding: 3rem;
+        padding-top: 0;
+    }
+
+    .foot_p {
+        max-width: 150px;
+    }
+
+}
+    
+
+@media only screen and (min-width:768px) and  (max-width:992px)  {
+   
+    /*HEADER CSS*/
+    .nav {
+        padding: 3rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+    /*HOME CSS*/
+
+    .home {
+        overflow: hidden;
+    }
+    
+    
+    .home-flex {
+        height: 71vh;
+        padding: 3rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .main-text {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .main-hd-text {
+        position: relative;
+        max-width: 300px;
+        padding-top: 0;
+    }
+
+    .main-hd-text h1 {
+        padding: 0;
+        font-size: 6rem;
+        letter-spacing: -3px;
+        line-height: 80px;
+    }
+    
+
+    .main_bg {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        width: 70%;
+        height: 70vh;
+    }
+
+
+    /*BTN CSS*/
+    .btn-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+     /*SERVİCES CSS*/ 
+     .services {
+        padding: 2rem;
+    }
+
+    .services-blog-item {
+        flex: 50%;
+    }
+
+    .sponsor-bar {
+        padding: 1rem;
+    }
+
+    /*STEPS CSS*/ 
+    .steps {
+        padding: 2rem;
+    }
+
+    .steps-bg {
+        background-image: url(/img/man-holding-lamp\ \(1\).jpg);
+        opacity: 0.8;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        z-index: -1;
+        width: 80%;
+        height: 150vh;
+        flex-shrink: 0;
+    }
+
+    .steps-flex {
+        width: 100%;
+    }
+
+    .steps-block {
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+
+    .steps-block-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 120px;
+    }
+
+    .arrow {
+        height: 12.5em;
+    }
+    
+    .first-arrow {
+        height: 9rem;
+    }
+
+    .steps-block-item {
+        min-width: 280px;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .steps-block-items:nth-child(1) {
+        display: none;
+    }
+
+    .steps-block-item:nth-child(1) {
+        display: none;
+    }
+
+    .steps-block-item:nth-child(3) {
+        visibility: visible;
+    }
+
+    .visi-item {
+        visibility: visible;
+    }
+
+    /*COMMENTS CSS*/ 
+    .comments {
+        padding: 2rem;
+    }
+
+    .comments-grid {
+        padding-top: 1rem;
+    }
+
+    .comments-blocks {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-auto-columns: 1fr 1fr;
+        display: grid;
+    }
+
+    .cm-blck-flex {
+        gap: 1rem;
+    }
+
+    .cm-blck-flex:nth-child(3) {
+       padding-top: 2rem;
+    }
+
+    .cm-blck-flex:nth-child(2) {
+        /* Stil tanımları */
+        display: none;
+    }
+
+    .cm-blck-flex img {
+        height: 35px;
+        opacity: 0.7;
+    }
+
+
+    /*ABOUT CSS*/  
+    .about {
+        height: 130vh;
+    }
+
+    .about-flex {
+        padding: 2rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+
+    }
+
+    .about_text {
+        width: 100%;
+    }
+
+    .about_text-hd {
+        font-size: 120px;
+        letter-spacing: -8px;
+        width: 100%;
+    }
+
+    .about_text-p {
+        max-width: 500px;
+    }
+
+    .about_links {
+        display: flex;
+    }
+
+    .about_bg {
+        top: 10%;
+        left: -2%;
+        height: 120vh;
+        width: 80vh;
+    }
+
+    .about_text-btn .btn-icon-p {
+        font-size: 1rem;
+    }
+
+
+
+    /*TALK CSS*/
+    .talk {
+        padding: 3rem;
+        padding-top: 7rem;
+        height: auto;
+    }
+
+    .talk_text_hd {
+        font-size: 15px;
+    }
+
+    .talk_text_head {
+        font-size: 100px;
+        line-height: 100px;
+        letter-spacing: -7px;
+    }
+
+
+
+    /*FOOTER CSS*/
+    .footer-flex {
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .blog-flex {
+        gap: 5rem;
+    }
+
+    .foot-flex {
+        padding: 3rem;
+        padding-top: 0;
+    }
+
+    .foot_p {
+        max-width: 400px;
+    }
+
+}
+    
+
+
+@media (min-width:992px) and (max-width:1200px) {
+
+ /*HEADER CSS*/
+ .nav {
+    padding: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/*HOME CSS*/
+
+.home {
+    overflow: hidden;
+}
+
+
+.home-flex {
+    height: 71vh;
+    padding: 3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main-hd-text {
+    position: relative;
+    max-width: 300px;
+    padding-top: 0;
+}
+
+.main-hd-text h1 {
+    padding: 0;
+    font-size: 6rem;
+    letter-spacing: -3px;
+    line-height: 80px;
+}
+
+
+.main_bg {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 70%;
+    height: 70vh;
+}
+
+
+/*BTN CSS*/
+.btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+ /*SERVİCES CSS*/ 
+ .services {
+    padding: 2rem;
+}
+
+.services-blog-item {
+    flex: 50%;
+}
+
+.sponsor-bar {
+    padding: 1rem;
+}
+
+/*STEPS CSS*/ 
+.steps {
+    padding: 2rem;
+}
+
+.steps-bg {
+    background-image: url(/img/man-holding-lamp\ \(1\).jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    width: 80%;
+    height: 150vh;
+    flex-shrink: 0;
+}
+
+.steps-flex {
+    width: 100%;
+}
+
+.steps-block {
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+
+.steps-block-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 120px;
+}
+
+.arrow {
+    height: 12.5em;
+}
+
+.first-arrow {
+    height: 9rem;
+}
+
+.steps-block-item {
+    min-width: 280px;
+    max-width: 400px;
+    height: auto;
+}
+
+.steps-block-items:nth-child(1) {
+    display: none;
+}
+
+.steps-block-item:nth-child(1) {
+    display: none;
+}
+
+.steps-block-item:nth-child(3) {
+    visibility: visible;
+}
+
+.visi-item {
+    visibility: visible;
+}
+
+/*COMMENTS CSS*/ 
+.comments {
+    padding: 2rem;
+}
+
+.comments-grid {
+    padding-top: 1rem;
+}
+
+.comments-blocks {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-auto-columns: 1fr 1fr;
+    display: grid;
+}
+
+.cm-blck-flex {
+    gap: 1rem;
+}
+
+.cm-blck-flex:nth-child(3) {
+   padding-top: 2rem;
+}
+
+.cm-blck-flex:nth-child(2) {
+    /* Stil tanımları */
+    display: none;
+}
+
+.cm-blck-flex img {
+    height: 35px;
+    opacity: 0.7;
+}
+
+
+/*ABOUT CSS*/  
+.about {
+    height: 130vh;
+}
+
+.about-flex {
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.about_text {
+    width: 100%;
+}
+
+.about_text-hd {
+    font-size: 120px;
+    letter-spacing: -8px;
+    width: 100%;
+}
+
+.about_text-p {
+    max-width: 500px;
+}
+
+.about_links {
+    display: flex;
+}
+
+.about_bg {
+    top: 10%;
+    left: -2%;
+    height: 120vh;
+    width: 80vh;
+}
+
+.about_text-btn .btn-icon-p {
+    font-size: 1rem;
+}
+
+
+
+/*TALK CSS*/
+.talk {
+    padding: 3rem;
+    padding-top: 7rem;
+    height: auto;
+}
+
+.talk_text_hd {
+    font-size: 15px;
+}
+
+.talk_text_head {
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: -7px;
+}
+
+
+
+/*FOOTER CSS*/
+.footer-flex {
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.blog-flex {
+    gap: 5rem;
+}
+
+.foot-flex {
+    padding: 3rem;
+    padding-top: 0;
+}
+
+.foot_p {
+    max-width: 400px;
+}
+
+    
+}
+
+
+@media (min-width:1200px)  {
+
+    /*HEADER CSS*/
+    .nav_item, .btn-1 {
+        display: flex;
+    }
+
+    .nav_responsive {
+        display: none;
+    }
+
+    .nav_item-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+  

@@ -1,0 +1,54 @@
+/*==================== TALK ====================*/
+
+.talk {
+    background-color: #000;
+    margin-top: 10rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talk_text {
+    color: #AAA;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.talk_text_hd {
+    font-family: var(--third-font);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.talk_text_head {
+    font-family: var(--second-font);
+    line-height: 160px;
+    letter-spacing: -10px;
+    font-size: 160px;
+    line-height: -70px;
+}
+
+.talk_text_btn {
+    border-radius: 5px;
+    border: 0.5px solid #000;
+    background: #AAA;
+    color: #000;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+
+.talk_text_btn:hover {
+    transform: rotateY('180deg');
+    transition: all 0.3s ease;
+}
+

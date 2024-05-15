@@ -1,0 +1,98 @@
+/*==================== COMMENTS ====================*/
+
+.comments {
+    width: 100%;
+    padding: 5rem;
+    background-color: #000;
+}
+
+.comments-hd {
+    text-align: center;
+}
+
+.comments-p {
+    text-align: center;
+    font-size: var(--small-font-size);
+    opacity: 0.75;
+    padding: 1rem;
+}
+
+.comments-grid {
+    padding-top: 2rem;
+}
+
+.comments-blocks {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
+.cm-blck-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cm-blck-flex img {
+    height: 25px;
+    opacity: 0.7;
+}
+
+.comments-blocks-item {
+    border: 0.5px solid rgba(170, 170, 170, 0.3);
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+
+.cm-blck-itm-logo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cm-blck-itm-p {
+    font-size: var(--small-font-size);
+    margin-bottom: 2rem;
+    opacity: 0.75;
+}
+.personal-blck {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    flex-direction: row;
+    gap: 1rem;
+}
+
+.personal-blck-logo {
+    border: 0.5px solid #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.personel-logo-img {
+    background-image: url(../img/portrait-handsome-smiling-hipster-businessman-model-wearing-casual-beige-suit.jpg);
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: left;
+}
+
+
+.personal-blck-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.personal-blck-name {
+    font-size: 1rem;
+}
+
+.personal-blck-p {
+    font-size: 0.75rem;
+    opacity: 0.75;
+}

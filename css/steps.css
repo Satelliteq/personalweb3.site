@@ -1,0 +1,132 @@
+/*==================== STEPS ====================*/
+.steps {
+    padding: 5rem;
+    position: relative;
+}
+
+.steps-bg {
+    background-image: url(../img/man-holding-lamp.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    width: 110vh;
+    height: 160vh;
+    flex-shrink: 0;
+    right: 5%;
+    bottom: 5%;    
+}
+
+
+.steps-arrow-wall .btn-3 {
+    rotate: -90deg;
+}
+
+.steps-flex {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.steps-head {
+    padding: 0;
+}
+
+.steps-p {
+    font-size: var(--small-font-size);
+    opacity: 0.75;
+}
+
+.steps-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.steps-block-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.steps-block-item {
+    padding: 2rem;
+    border: 0.5px solid rgba(170, 170, 170, 0.3);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 450px;
+    max-height: auto;
+    flex-shrink: 0;
+}
+
+.steps-arrow-wall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.arrow {
+    width: 1px;
+    height: 11rem;
+    background-color: rgba(170, 170, 170, 0.5);
+    opacity: 0.75;
+}
+
+.btn-icon {
+    font-family: var(--fourth-font);
+}
+
+.steps-arrow-wall .btn-3 {
+    padding: 0;
+    cursor: default;
+}
+
+
+.steps-block-item-textbox {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.steps-block-item-textbox-hd {
+    color: #555;
+    font-family:var(--second-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.steps-block-item-textbox-head {
+    color: #AAA;
+    font-family: var(--second-font);
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.steps-block-item-textbox-p {
+    color: #AAA;
+    font-size: var(--small-font-size);
+    opacity: 0.75;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 0.5rem;
+}
+
+.visi-item {
+    visibility: hidden;
+}

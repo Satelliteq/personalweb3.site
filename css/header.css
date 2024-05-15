@@ -1,0 +1,216 @@
+/*==================== HEADER & NAV ====================*/
+.header {
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.nav {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav_logo {
+    font-family: var(--second-font);
+    text-decoration: none;
+    color: var(--text-color);
+    font-size:var(--h1-font-size);
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.nav_menu {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    color: #AAA;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: var(--small-font-size);
+    font-family: var(--body-font);
+}
+
+.nav_link:hover {
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.nav_responsive {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+}
+
+.nav_menu-responsive {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 300px;
+    height: 100%;
+    background-color: #000000;
+    display: none;
+    transform: translateX(20px);
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.nav_menu-responsive ul {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem;
+    flex-direction: column;
+    gap: 2rem;
+    transform: translateX(20px);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav_link-responsive {
+    text-decoration: none;
+    color: #AAA;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 500;
+}
+
+.nav_link-responsive:hover{
+    opacity: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-icon {
+    top: 38px;
+    right: 38px;
+    cursor: pointer;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn {
+    display: none;
+    z-index: 1000;
+}
+
+.menu-icon .bar {
+    width: 15px;
+    height: 1.5px;
+    background-color: #AAA;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+    z-index: 100000;
+}
+
+.menu-icon .bar::before {
+    content: "";
+    width: 20px;
+    height: 1.5px;
+    background-color: #AAA;
+    display: block;
+    position: absolute;
+    transition: all 0.3s ease-out;
+    top: -8px;
+    left: 0;
+    border-radius: 10px;
+}
+
+.menu-icon .bar::after {
+    content: "";
+    width: 20px;
+    height: 1.5px;
+    background-color: #AAA;
+    display: block;
+    position: absolute;
+    transition: all 0.3s ease-out;
+    top: 8px;
+    left: 0;
+    border-radius: 10px;
+
+}
+
+.nav_menu-responsive {
+    /* Diğer stiller */
+    display: none;
+}
+
+.nav_menu-responsive.slide-in {
+    animation: slideIn 0.3s ease-in;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+.nav_menu-responsive.slide-in {
+    animation: slideIn 0.5s forwards;
+}
+
+.nav_menu-responsive.slide-out {
+    animation: slideOut 0.5s forwards;
+}
+
+
+.menu-btn:checked + .menu-icon .bar {
+    background-color: transparent;
+    position: fixed;
+}
+
+.menu-btn:checked + .menu-icon .bar::before {
+    top: 0;
+    transform: rotate(45deg);
+    transition: all 0.5s forwards;
+}
+
+.menu-btn:checked + .menu-icon .bar::after {
+    top: 0;
+    transform: rotate(-45deg);
+    transition: all 0.5s forwards;
+}
+

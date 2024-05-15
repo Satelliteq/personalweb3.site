@@ -1,0 +1,283 @@
+/*=========================== GOOGLE FONTS ===========================*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap');
+
+
+@import url(../css/header.css);
+@import url(../css/home.css);
+@import url(../css/services.css);
+@import url(../css//works.css);
+@import url(../css/steps.css);
+@import url(../css/comments.css);
+@import url(../css/about.css);
+@import url(../css/talk.css);
+@import url(../css/footer.css);
+@import url(../css/responsive.css);
+
+
+
+
+/*=========================== VARİABLES CSS ===========================*/
+:root {
+    --header-height: 3.5rem;
+
+
+    /*======== Colors ========*/
+    /*Color mode HSL (hue, saturation lightness)*/
+    --black-color: #000;
+    --black-color-light:#9e9e9e99;
+    --white-color: #fff;
+    --title-color:#AAA;
+    --text-color:#AAA;
+    --body-color:#000;
+    --bg-color: #1c1c1c;
+
+    ::selection {
+        background-color: #AAA; /* Arkaplan rengini değiştirin */
+        color: #000;
+        opacity: 0.7; /* Metin rengini değiştirin */
+    }
+
+
+
+    /*=============== Font and typography ===============*/
+    /* .5rem = 8px | 1rem = 16px...*/
+    --body-font: 'Poppins', sans-serif;
+    --second-font: 'Outfit', sans-serif;
+    --third-font: 'Outfit', sans-serif;
+    --fourth-font:'Poppins', sans-serif;
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --hd-font-size: 2rem;
+
+
+    /*======== Font weight ========*/
+    --font-regular: 400;
+    --font-bold: 700;
+
+
+    /*======== z index ========*/
+    --z-tooltip:10;
+    --z-fixed: 100;
+}
+
+
+
+    /*=============== Animation Css ===============*/
+
+    .fade-in-up {
+        opacity: 0;
+        transform: translateY(70px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    .fade-in-up.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+    }
+
+    .fade-in-up .item, .another-fade-in-up .item {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      @keyframes fade-in-up {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in-up.show .item, .another-fade-in-up.show .item {
+        animation: fade-in-up 0.5s ease forwards;
+      }
+
+
+      /* Öğelerin sırayla görünmesini sağlayan gecikme */
+      .fade-in-up .item:nth-child(1) {
+        animation-delay: 0s;
+      }
+
+      .fade-in-up .item:nth-child(2) {
+        animation-delay: 0.5s;
+      }
+
+      .fade-in-up .item:nth-child(3) {
+        animation-delay: 1s;
+      }
+
+      .fade-in-up .item:nth-child(4) {
+        animation-delay: 1.5s;
+      }
+
+
+    /*=============== Font and typography ===============*/
+    @media screen and (min-width: 1152px) {
+        :root {
+            --biggest-font-size: 4.5rem;
+            --h1-font-size: 1.75rem;
+            --h2-font-size: 1.5rem;
+            --normal-font-size: 1rem;
+            --small-font-size: 0.875rem;
+        }
+    }
+
+
+
+    /*============= BASE =============*/
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        transition: transform  0.3s ease;
+    }
+
+    html {
+        width: 100%;
+        height: 100%;
+        transition: 0.3s ease-out;
+        scroll-behavior: smooth;
+
+    }
+
+    body {
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+        background-color: var(--body-color);
+        color: var(--text-color);
+        position: relative;
+        height: 100%;
+
+    }
+
+    ::-webkit-scrollbar {
+        background-color: #000;
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #a0a0a0;
+        height: 50px;
+        border-radius: 3px;
+    }
+
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .btn {
+        border-radius: 5px;
+        padding: 0.2rem 1rem;
+    }
+
+
+    .btn-1 {
+        border: 0.5px solid rgba(170, 170, 170, 0.3);
+    }
+
+    .btn-1:hover {
+        background-color: #191919;
+        transition: all 0.3s ease;
+    }
+
+    .btn-2 {
+        background-color: var(--text-color);
+        border: 0.5px solid rgba(170, 170, 170, 0.3);
+    }
+
+
+    .btn-3 {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        gap: 1rem;
+        flex-direction: row;
+        cursor: pointer;
+        rotate: 0deg;
+    }
+
+    .btn-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: solid 1px rgba(170, 170, 170, 0.7);
+        opacity: 0.8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sect-hd {
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: -3px;
+        font-family: var(--second-font);
+        font-weight: 400;
+    }
+
+    svg {
+        color: #AAA;
+    }
+
+
+    /*======================= RESUABLE CSS CLASSES =======================*/
+
+    /*==================== HEADER & NAV ====================*/
+
+
+    /* Nvigation for mobile devices */
+
+
+    /* Show menu */
+
+
+    /* Add shadow header */
+
+
+
+
+
+
+
+
+
+    /* Swiper class */
+
+
+    /*==================== BREAKPOİNTS ====================*/
+
+
+    /* For small devices */
